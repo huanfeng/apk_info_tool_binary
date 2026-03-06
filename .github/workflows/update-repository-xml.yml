@@ -1,0 +1,56 @@
+name: Update Repository XML
+
+on:
+  schedule:
+    # Every Monday at 08:00 UTC
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download latest repository XML
+        run: |
+          curl -fSL -o repository2-3.xml.new \
+            "https://dl.google.com/android/repository/repository2-3.xml"
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if diff -q repository2-3.xml repository2-3.xml.new > /dev/null 2>&1; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected."
+          else
+            mv repository2-3.xml.new repository2-3.xml
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected, updating."
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add repository2-3.xml
+          git commit -m "chore: update repository2-3.xml $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Update release asset
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Delete existing release if present
+          gh release delete latest --yes 2>/dev/null || true
+          # Create new release with updated file
+          gh release create latest repository2-3.xml \
+            --title "Latest Repository XML" \
+            --notes "Auto-updated on $(date -u +%Y-%m-%d)" \
+            --latest
