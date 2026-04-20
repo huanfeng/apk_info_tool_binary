@@ -324,40 +324,16 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="platforms;android-CinnamonBun">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>36.1</api-level>
-      <codename>CinnamonBun</codename>
-      <extension-level>21</extension-level>
-      <base-extension>true</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>Android SDK Platform CinnamonBun</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>67069204</size>
-          <checksum type="sha1">fc958eeaf4d3075d3f0eb8108df883baba9bb419</checksum>
-          <url>platform-CinnamonBun_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="platforms;android-CANARY">
     <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>36.1</api-level>
+      <api-level>37.0</api-level>
       <codename>CANARY</codename>
-      <extension-level>21</extension-level>
+      <extension-level>22</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>10</major>
+      <major>11</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -365,9 +341,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67144025</size>
-          <checksum type="sha1">c302ae12b604acd942e31568f32917fe3141750c</checksum>
-          <url>platform-CANARY_r10.zip</url>
+          <size>57118318</size>
+          <checksum type="sha1">ed3b7cc69b5e8e66cbed77d1e4dda6629bbabf4b</checksum>
+          <url>platform-CANARY_r11.zip</url>
         </complete>
       </archive>
     </archives>
@@ -11001,16 +10977,16 @@ June 2014.
       </archive>
       <archive>
         <complete>
-          <size>16442198</size>
-          <checksum type="sha1">ff8facde137e57994112672a0d0f411a3ca7b201</checksum>
+          <size>16442240</size>
+          <checksum type="sha1">8c4c926d0ca192376b2a04b0318484724319e67c</checksum>
           <url>platform-tools_r37.0.0-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>8092184</size>
-          <checksum type="sha1">8a8351438a9bde81726129214940e0275f7949c7</checksum>
+          <size>8092164</size>
+          <checksum type="sha1">f29bfb58d0d6f9a57d7dbcba6cc259f9ca6f58f1</checksum>
           <url>platform-tools_r37.0.0-win.zip</url>
         </complete>
         <host-os>windows</host-os>
@@ -11022,7 +10998,7 @@ June 2014.
     <revision>
       <major>36</major>
       <minor>6</minor>
-      <micro>3</micro>
+      <micro>4</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -11030,36 +11006,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>347008218</size>
-          <checksum type="sha1">4d1ddbbcc6d708fd933b08931163182e0e205ad0</checksum>
-          <url>emulator-linux_x64-15142779.zip</url>
+          <size>347058575</size>
+          <checksum type="sha1">30095e49828d8c6429b6b9562de77fdf2b0e41f9</checksum>
+          <url>emulator-linux_x64-15176742.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>462646251</size>
-          <checksum type="sha1">a3718deefc7d16ef3376626807cebcadb73ca5f4</checksum>
-          <url>emulator-darwin_x64-15142779.zip</url>
+          <size>462687589</size>
+          <checksum type="sha1">772c89fd8b923932a41868184ff94f3820f95095</checksum>
+          <url>emulator-darwin_x64-15176742.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>396370301</size>
-          <checksum type="sha1">a46e8160288ff40dd2768536fa70f2d5f13a67ce</checksum>
-          <url>emulator-darwin_aarch64-15142779.zip</url>
+          <size>396465613</size>
+          <checksum type="sha1">2e5908e8fe8597e6b854c8887d0d324531d14c58</checksum>
+          <url>emulator-darwin_aarch64-15176742.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>428894868</size>
-          <checksum type="sha1">8f5ff31b854cf4f9eaf15c1b571148240edfcaf4</checksum>
-          <url>emulator-windows_x64-15142779.zip</url>
+          <size>429041578</size>
+          <checksum type="sha1">494ade384054f532436ed249daf225f862e5ea8b</checksum>
+          <url>emulator-windows_x64-15176742.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
