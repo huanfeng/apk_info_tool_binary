@@ -333,7 +333,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>4</major>
     </revision>
     <display-name>Android SDK Platform CinnamonBun</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -341,9 +341,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67396651</size>
-          <checksum type="sha1">56d364675ab0874416f431b774a39e5624e5f164</checksum>
-          <url>platform-CinnamonBun_r02.zip</url>
+          <size>67477798</size>
+          <checksum type="sha1">185c1c48b6b9abd402200cb3d9629b4323e1c4fc</checksum>
+          <url>platform-CinnamonBun_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -374,14 +374,14 @@ June 2014.
   </remotePackage>
   <remotePackage path="platforms;android-CANARY">
     <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>37.0</api-level>
+      <api-level>37.1</api-level>
       <codename>CANARY</codename>
-      <extension-level>22</extension-level>
+      <extension-level>23</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>13</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -389,9 +389,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67539465</size>
-          <checksum type="sha1">4dce9f080c83d91e897897655cbcbeb0f6831c2a</checksum>
-          <url>platform-CANARY_r12.zip</url>
+          <size>67599805</size>
+          <checksum type="sha1">755b48c64c9ad32dee09d164e872c129ada2abdd</checksum>
+          <url>platform-CANARY_r13.zip</url>
         </complete>
       </archive>
     </archives>
@@ -11046,7 +11046,7 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>1</minor>
-      <micro>2</micro>
+      <micro>3</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -11054,36 +11054,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>347618707</size>
-          <checksum type="sha1">e1a50b5fa26c771fbb18c747944907aa67b1ca96</checksum>
-          <url>emulator-linux_x64-15513348.zip</url>
+          <size>347656936</size>
+          <checksum type="sha1">acbf4c39e163597a8e89e01b9c5af00885c25ae2</checksum>
+          <url>emulator-linux_x64-15565763.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>462567414</size>
-          <checksum type="sha1">2ffa9109d7ab2014a22704ae82444e55401ea829</checksum>
-          <url>emulator-darwin_x64-15513348.zip</url>
+          <size>462605334</size>
+          <checksum type="sha1">7cc7b5db3f3f21226e21ec374de252f8c15fcade</checksum>
+          <url>emulator-darwin_x64-15565763.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>396951355</size>
-          <checksum type="sha1">cd3a21cb3018f7c70c0f3587a827ed36e9b055f3</checksum>
-          <url>emulator-darwin_aarch64-15513348.zip</url>
+          <size>396989260</size>
+          <checksum type="sha1">df8c64fb9384a20964524caa5a6cfbc48a49c4bb</checksum>
+          <url>emulator-darwin_aarch64-15565763.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>429551646</size>
-          <checksum type="sha1">560880168862a4278494cb5d183374ddae50e135</checksum>
-          <url>emulator-windows_x64-15513348.zip</url>
+          <size>429678474</size>
+          <checksum type="sha1">2a77a911d169ae745ba0fdb38b0901f73cd3e858</checksum>
+          <url>emulator-windows_x64-15565763.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
