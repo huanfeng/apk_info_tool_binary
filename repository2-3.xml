@@ -333,7 +333,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>Android SDK Platform CinnamonBun</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -341,9 +341,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67477798</size>
-          <checksum type="sha1">185c1c48b6b9abd402200cb3d9629b4323e1c4fc</checksum>
-          <url>platform-CinnamonBun_r04.zip</url>
+          <size>67558105</size>
+          <checksum type="sha1">e2b204742c79147f694281af9e30fa8d8b7e96eb</checksum>
+          <url>platform-CinnamonBun_r05.zip</url>
         </complete>
       </archive>
     </archives>
@@ -415,30 +415,6 @@ June 2014.
           <size>66270841</size>
           <checksum type="sha1">f87dc23b7ddba6934908da6cfb58fd5b258077ce</checksum>
           <url>platform-36.1_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="platforms;android-Baklava-ext19">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>36.0x</api-level>
-      <codename>Baklava</codename>
-      <extension-level>19</extension-level>
-      <base-extension>false</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Android SDK Platform Baklava-ext19</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>66332697</size>
-          <checksum type="sha1">7842268e95c0538a9d59ab813f39a5ee69bdbb86</checksum>
-          <url>platform-36.0-Baklava-ext19_r01.zip</url>
         </complete>
       </archive>
     </archives>
@@ -11082,7 +11058,7 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>1</minor>
-      <micro>4</micro>
+      <micro>6</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -11090,36 +11066,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>347758159</size>
-          <checksum type="sha1">8f37a1a82059a06e6f32f5297886f86422dcf923</checksum>
-          <url>emulator-linux_x64-15622418.zip</url>
+          <size>346488776</size>
+          <checksum type="sha1">84bf680385fe2feda86b01d38a0b1c731fa90f6e</checksum>
+          <url>emulator-linux_x64-15726199.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>462727723</size>
-          <checksum type="sha1">3902bb279786362a36ddccd40a28ff30879dab5c</checksum>
-          <url>emulator-darwin_x64-15622418.zip</url>
+          <size>477448305</size>
+          <checksum type="sha1">45f7442345ea1bbd2d6c572b51b9b576f605083c</checksum>
+          <url>emulator-darwin_x64-15726199.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>397056588</size>
-          <checksum type="sha1">f4b378a3ef6c7bf5c2552781987cfc637ed7b320</checksum>
-          <url>emulator-darwin_aarch64-15622418.zip</url>
+          <size>405381878</size>
+          <checksum type="sha1">2fdf43a7fd8090574ca4288e89ceb95d83dc54cb</checksum>
+          <url>emulator-darwin_aarch64-15726199.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>429846199</size>
-          <checksum type="sha1">90d9866afd1f216c9245165953bd9fb8ef0d82e2</checksum>
-          <url>emulator-windows_x64-15622418.zip</url>
+          <size>452941299</size>
+          <checksum type="sha1">7e8d277be439bbcc8a3d8672c6ae00cbb8e34568</checksum>
+          <url>emulator-windows_x64-15726199.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
