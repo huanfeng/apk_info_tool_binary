@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-canary-20260909">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>37.2</api-level>
+      <codename>CANARY</codename>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>16</major>
+    </revision>
+    <display-name>Android SDK Platform canary-20260909</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>68344992</size>
+          <checksum type="sha1">55333e3a8621df53c06e93b09334dd545e060136</checksum>
+          <url>platform-canary-20260909_r16.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-37.2">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.2</api-level>
@@ -11538,44 +11562,44 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>2</minor>
-      <micro>8</micro>
+      <micro>10</micro>
     </revision>
     <display-name>Android Emulator</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-1"/>
     <archives>
       <archive>
         <complete>
-          <size>354000408</size>
-          <checksum type="sha1">0c6f6f0f477ad5bac46f2974f1a3faff416545b4</checksum>
-          <url>emulator-linux_x64-16259959.zip</url>
+          <size>349652600</size>
+          <checksum type="sha1">d33c8e6c6d5dfa3a3d0e4b8329e14c2ef7e9c715</checksum>
+          <url>emulator-linux_x64-16349944.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>492767998</size>
-          <checksum type="sha1">ea49869023397fec46dcb419aac42c59bab34b7a</checksum>
-          <url>emulator-darwin_x64-16259959.zip</url>
+          <size>488735352</size>
+          <checksum type="sha1">68cf0ffd25663f6e44bff19d0e961ece792689c1</checksum>
+          <url>emulator-darwin_x64-16349944.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>419955119</size>
-          <checksum type="sha1">2bd7220a1e93b1a77946d38f7a54eae445e2f0d9</checksum>
-          <url>emulator-darwin_aarch64-16259959.zip</url>
+          <size>416114733</size>
+          <checksum type="sha1">cb9552f57c2c3f012e73dee51fda0d59b15941cf</checksum>
+          <url>emulator-darwin_aarch64-16349944.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>459029121</size>
-          <checksum type="sha1">3f801736cd944dd9033d6e4acd29bf7385d6e1a9</checksum>
-          <url>emulator-windows_x64-16259959.zip</url>
+          <size>455342191</size>
+          <checksum type="sha1">99e809fc3e5e13bd5e552de24c7de79c6f911027</checksum>
+          <url>emulator-windows_x64-16349944.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
@@ -11625,6 +11649,56 @@ June 2014.
           <size>441926448</size>
           <checksum type="sha1">54fa750822ff462d57e04fc8e98e60f08df2bb61</checksum>
           <url>emulator-windows_x64-15917651.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build;lightbuild;0.0.20-alpha01">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>0</major>
+      <minor>0</minor>
+      <micro>20</micro>
+      <preview>01</preview>
+    </revision>
+    <display-name>Lightbuild</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>63089404</size>
+          <checksum type="sha1">1a6c30be556dc1f8377eb67790e84aa0d2898b09</checksum>
+          <url>lume-daemon-linux_x64-16311758.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>61192929</size>
+          <checksum type="sha1">fde9b31e3117c07bd30fafb86397ff198bb95854</checksum>
+          <url>lume-daemon-darwin_x64-16311758.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>60324690</size>
+          <checksum type="sha1">9d1a4a977e1987e455e5bc0c4c1b41239fa54c75</checksum>
+          <url>lume-daemon-darwin_aarch64-16311758.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-arch>aarch64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>61150048</size>
+          <checksum type="sha1">ec733db5e928368145a58ab0e773da0c5cd23fc7</checksum>
+          <url>lume-daemon-windows_x64-16311758.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
@@ -11698,46 +11772,6 @@ June 2014.
           <checksum type="sha1">e8f0cca1fad5ab0411ef315fb9cb2274c30f6415</checksum>
           <url>templates-sdk-package-15508551.zip</url>
         </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage obsolete="true" path="tools">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>26</major>
-      <minor>1</minor>
-      <micro>1</micro>
-    </revision>
-    <display-name>Android SDK Tools</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator"/>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>103022432</size>
-          <checksum type="sha1">ed85ea7b59bc3483ce0af4c198523ba044e083ad</checksum>
-          <url>sdk-tools-darwin-4333796.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>154582459</size>
-          <checksum type="sha1">8c7c28554a32318461802c1291d76fccfafde054</checksum>
-          <url>sdk-tools-linux-4333796.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>156136858</size>
-          <checksum type="sha1">aa298b5346ee0d63940d13609fe6bec621384510</checksum>
-          <url>sdk-tools-windows-4333796.zip</url>
-        </complete>
-        <host-os>windows</host-os>
       </archive>
     </archives>
   </remotePackage>
